@@ -1,0 +1,21 @@
+{
+  "name": "supergulp",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome development environment",
+  "repository": "https://github.com/Joyce928/supergulp",
+  "author": "Joyce <seonju9209@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.2",
+    "@babel/register": "^7.21.0",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
